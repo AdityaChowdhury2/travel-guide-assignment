@@ -13,7 +13,9 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex flex-col lg:flex-row justify-between items-center p-4 bg-transparent sm:bg-white shadow-md font-roboto">
       <div className="flex items-center w-full lg:w-auto">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
         <button
           className="lg:hidden text-gray-700 hover:text-red-500 ml-auto"
           onClick={() => setIsOpen(!isOpen)}
@@ -40,7 +42,7 @@ const Navbar: React.FC = () => {
         } lg:flex`}
       >
         <img src="/help.png" alt="" />
-        <Link to="/help">
+        <Link to="/faq">
           <button className="text-gray-700 hover:text-red-500">Help</button>
         </Link>
         <div className="flex items-center gap-2">
