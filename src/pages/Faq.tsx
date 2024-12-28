@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Telegram from "../assets/images/telegram.png";
 import WhatsApp from "../assets/images/whatsapp.png";
@@ -13,10 +12,9 @@ import ChatImage from "../assets/images/chat.png";
 import SocialImage from "../assets/images/social.png";
 import SendQueryImage from "../assets/images/send-query.png";
 
-import { RiArrowDownWideLine, RiArrowUpWideFill } from "react-icons/ri";
 import Image from "../Image";
 
-const Faq = () => {
+const Faq: React.FC = () => {
   return (
     <>
       <Navbar />
