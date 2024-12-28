@@ -6,7 +6,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative bg-cover bg-center h-[485px] font-roboto bg-[url('src/assets/images/hero.png')]">
+    <section className="relative bg-cover bg-center h-[485px] font-roboto bg-[url('/hero.png')]">
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative container mx-auto px-4 py-16 flex flex-col lg:flex-row justify-between items-start gap-5">
         {/* Text and Images Section */}
@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
 
           {/* Images */}
           <div className="md:flex hidden space-x-4 mt-8 lg:mt-[14rem] lg:flex">
-            <div className="flex gap-5 bg-[url('src/assets/images/eclipse.png')] bg-left bg-no-repeat bg-contain items-center justify-between bg-gray-100 rounded-lg p-4">
+            <div className="flex gap-5 bg-[url('/eclipse.png')] bg-left bg-no-repeat bg-contain items-center justify-between bg-gray-100 rounded-lg p-4">
               <div className="relative w-48 h-24 rounded-lg">
                 <Image
                   src={MiniBus}
